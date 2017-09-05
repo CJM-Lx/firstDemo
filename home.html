@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<div class="status-bar"></div>
+	<div class="title-bar disp_no">首页</div>
+	<div class="top-tools weui-flex">
+		<div class="left-address bg_white">深圳</div>
+		
+		<div class="center-search weui-search-bar weui-flex__item" id="searchBar">
+		  <form class="weui-search-bar__form">
+		    <div class="weui-search-bar__box">
+		      <i class="weui-icon-search"></i>
+		      <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+		      <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+		    </div>
+		    <label class="weui-search-bar__label" id="searchText">
+		      <i class="weui-icon-search"></i>
+		      <span>搜索</span>
+		    </label>
+		  </form>
+		  <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+		</div>
+	
+		<div class="right-message bg_white">公告</div>
+	</div>
+	<div class="swiper-container" data-space-between='10' data-pagination='.swiper-pagination' data-autoplay="10">
+		<div class="swiper-wrapper swiper-size">
+			<div class="swiper-slide"><img src="//b.appsimg.com/2016/10/17/3017/14766931740570.jpg" alt=""></div>
+			<div class="swiper-slide"><img src="//a.vpimg4.com/upload/flow/2017/08/22/76/15033914862164.jpg" alt=""></div>
+		</div>
+	</div>
+	<!-- 行业分类 -->
+	<div class="industry bg_white" id="app">
+		<div class="weui-flex flex-height">
+			<industry v-for="item in data_list" v-bind:todo="item"></industry>
+		</div>
+	</div>
+	
+	<div class="banner-img1"></div>
+	
+	<!-- 广告 -->
+	<div class="advertisement bg_white"></div>
+	
+	
+	<div class="list_title bg_white">附近的商家</div>
+	<div class="shop_item weui-flex bg_white">
+		<div class="left_img" style="background: url(img/img6.png);"></div>
+		<div class="right_text weui-flex__item">
+			<p class="item_title">Lexus深圳湾店 <span class="item_size">400m</span></p>
+			<p class="item_text">在这里您可以查看雷克萨斯所有车型，勒克萨斯所有车型</p>
+			<p class="item_total">销量：<span class="item_color">1000</span></p>
+		</div>
+		<div class="b_line"></div>
+	</div>
+	<script src="js/home.js" type="text/javascript" charset="utf-8"></script>
+</html>

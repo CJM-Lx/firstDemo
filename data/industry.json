@@ -1,0 +1,10 @@
+[{"id":"1","icon":"url(img/qiche.png)","name":"汽车"},
+{"id":"2","icon":"url(img/jiudian.png)","name":"酒店"},
+{"id":"3","icon":"url(img/chaoshi.png)","name":"超市"},
+{"id":"4","icon":"url(img/lingshou.png)","name":"零售"},
+{"id":"5","icon":"url(img/canying.png)","name":"餐饮"},
+{"id":"6","icon":"url(img/shengxian.png)","name":"生鲜"},
+{"id":"7","icon":"url(img/fuzhuang.png)","name":"服装"},
+{"id":"8","icon":"url(img/liren.png)","name":"丽人"},
+{"id":"9","icon":"url(img/daiding1.png)","name":"待定"},
+{"id":"10","icon":"url(img/daiding2.png)","name":"待定"}]
